@@ -108,3 +108,12 @@ body{
     padding-top: 12px;
     padding-bottom: 16px;
 }
+.relojbarra{
+    padding: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    border: double;
+}
+.espacioreloj{
+    padding-right: 15px;
+}

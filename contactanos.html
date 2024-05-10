@@ -21,7 +21,9 @@
             <a class="navbar-brand" href="registro.html">Regístrate</a>
             <a class="navbar-brand" >Contáctanos</a>
         </div>
-        <div class="espacio"></div>
+        <div class="espacioreloj">
+            <div class="relojbarra" id="reloj" class="reloj"></div>
+        </div>
     </nav>
     <form class="formularioregistro">
         <h4>Formulario de Ticket</h4>
@@ -83,6 +85,18 @@
                 return true;
             });
         });
+    </script>
+    <script>
+        function actualizarReloj() {
+            const ahora = new Date();
+            const horas = ahora.getHours().toString().padStart(2, '0');
+            const minutos = ahora.getMinutes().toString().padStart(2, '0');
+            const segundos = ahora.getSeconds().toString().padStart(2, '0');
+            const tiempo = `${horas}:${minutos}:${segundos}`;
+            document.getElementById('reloj').innerText = tiempo;
+        }
+        
+        setInterval(actualizarReloj, 1000);
     </script>
 </body>
 <foot>
