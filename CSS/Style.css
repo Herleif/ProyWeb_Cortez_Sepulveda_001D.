@@ -64,3 +64,47 @@ img{
 body{
     background-color: rgb(255, 193, 193);
 }
+.formularioregistro {
+    width: 400px;
+    background: rgb(255, 97, 97);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+.controles {
+    width: 100%;
+    background: rgb(255, 193, 193);
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+
+.formularioregistro a {
+    color: white;
+}
+
+.formularioregistro p {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 14px;
+}
+.formularioregistro h4 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+.botonregistro {
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+}
+.motivoticket{
+    padding-bottom: 16px;
+}
+.textoticket{
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
