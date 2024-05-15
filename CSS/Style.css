@@ -117,3 +117,34 @@ body{
 .espacioreloj{
     padding-right: 15px;
 }
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20%;
+}
+#mapa{
+    height: 400px;
+    width: 40%;
+}
+.Textomapa p {
+    display: flex;
+    justify-content: center;
+}
+#fotollave1, #fotollave2, #fotollave3 {
+    background: white;
+    padding: 15px;
+    margin: 0 8px;
+    width: 300px;
+    height: 200px;
+}
+.Fotollavero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.Textollavero  {
+    display: flex;
+    justify-content: center;
+}

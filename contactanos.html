@@ -57,6 +57,17 @@
         </div>
         <input class="botonregistro" type="submit" value="Enviar Ticket">
     </form>
+    <div class="Textomapa">
+    <p>También puedes visitarnos en nuestra tienda fisica ubicada en</p>
+    <p>Providencia 2133, Providencia , Región Metropolitana</p>
+    </div>
+    <div class="mapa">
+        <div id="mapa"></div>
+    </div>
+    <script src="ScriptApi.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?v=beta&key=AIzaSyC5w7CYrhIzEXOZm6zVQyVFEU3yiOmggHw&libraries=places&callback=iniciarMapa">
+    </script>
     <script>
         $(document).ready(function(){
             $('.formularioregistro').submit(function(){
@@ -71,7 +82,7 @@
                     return false;
                 }
                 if (!apellido.match(letters)) {
-                    alert("Los apellidos solo pueden contener letras");
+                    alert("El apellido solo pueden contener letras");
                     return false;
                 }
                 if (orden.length > 20) {
